@@ -1,0 +1,134 @@
+{
+  "release": "1.2-local-research-beta",
+  "input_version": "ILANOT COSMOS BESA 1.1",
+  "source": "seven user attachments with filenames \"TODOS LOS ARBOLES 1_Page_*\"",
+  "source_doc_assessed": false,
+  "parent_file_verified": false,
+  "warning": "The page numbers come from image filenames and are not historic manuscript folio numbers or proof of original codex provenance.",
+  "all_matches_byte_exact": true,
+  "entries": [
+    {
+      "id": "ILAN-01",
+      "image_in_cosmos": "assets/ilan-01-original.jpg",
+      "provided_attachment_filename": "TODOS LOS ARBOLES 1_Page_11_Image_0001(20261018-055010).jpg",
+      "page_number_embedded_in_filename": 11,
+      "filename_scope": "Nombre original del archivo aportado por el usuario; el número Page_ no acredita foliación del manuscrito",
+      "match_type": "byte_exact",
+      "sha256": "daebfc8fbdcb36449c0ab45613de15ccf4120e4fab7b09e09fa900e6df667c2e",
+      "width_px": 338,
+      "height_px": 1024,
+      "bytes": 137161,
+      "historical_catalog_identity": "NOT_ESTABLISHED",
+      "thematic_figures_in_chajes": [
+        12
+      ],
+      "citation_is_identification": false
+    },
+    {
+      "id": "ILAN-02",
+      "image_in_cosmos": "assets/ilan-02-original.jpg",
+      "provided_attachment_filename": "TODOS LOS ARBOLES 1_Page_12_Image_0001(20261018-055007).jpg",
+      "page_number_embedded_in_filename": 12,
+      "filename_scope": "Nombre original del archivo aportado por el usuario; el número Page_ no acredita foliación del manuscrito",
+      "match_type": "byte_exact",
+      "sha256": "36af057c0f660e61ec769b786b1194fc2ca2405ecd02cb50c91a6700c864e7ea",
+      "width_px": 1143,
+      "height_px": 928,
+      "bytes": 302931,
+      "historical_catalog_identity": "NOT_ESTABLISHED",
+      "thematic_figures_in_chajes": [
+        2,
+        4
+      ],
+      "citation_is_identification": false
+    },
+    {
+      "id": "ILAN-03",
+      "image_in_cosmos": "assets/ilan-03-original.jpg",
+      "provided_attachment_filename": "TODOS LOS ARBOLES 1_Page_25_Image_0001(20261018-055008).jpg",
+      "page_number_embedded_in_filename": 25,
+      "filename_scope": "Nombre original del archivo aportado por el usuario; el número Page_ no acredita foliación del manuscrito",
+      "match_type": "byte_exact",
+      "sha256": "bb86ca5aaa33a97dc2c994a8b1119b7520613231a01cdca40cc76c9cf8f51ad1",
+      "width_px": 1482,
+      "height_px": 1865,
+      "bytes": 598221,
+      "historical_catalog_identity": "NOT_ESTABLISHED",
+      "thematic_figures_in_chajes": [
+        2
+      ],
+      "citation_is_identification": false
+    },
+    {
+      "id": "ILAN-04",
+      "image_in_cosmos": "assets/ilan-04-original.jpg",
+      "provided_attachment_filename": "TODOS LOS ARBOLES 1_Page_26_Image_0001(1).jpg",
+      "page_number_embedded_in_filename": 26,
+      "filename_scope": "Nombre original del archivo aportado por el usuario; el número Page_ no acredita foliación del manuscrito",
+      "match_type": "byte_exact",
+      "sha256": "48a8cd59058bf6caf01727bac5473a22b1de3d7e84179be0a48408897b9fe9a0",
+      "width_px": 1370,
+      "height_px": 1760,
+      "bytes": 444133,
+      "historical_catalog_identity": "NOT_ESTABLISHED",
+      "thematic_figures_in_chajes": [
+        3
+      ],
+      "citation_is_identification": false
+    },
+    {
+      "id": "ILAN-05",
+      "image_in_cosmos": "assets/ilan-05-original.jpg",
+      "provided_attachment_filename": "TODOS LOS ARBOLES 1_Page_27_Image_0001(20261018-055008).jpg",
+      "page_number_embedded_in_filename": 27,
+      "filename_scope": "Nombre original del archivo aportado por el usuario; el número Page_ no acredita foliación del manuscrito",
+      "match_type": "byte_exact",
+      "sha256": "07998c31d57ec69eb764531e4a19d398e124b6c3b6a92bc8e8ab10da904819ab",
+      "width_px": 1370,
+      "height_px": 1378,
+      "bytes": 370967,
+      "historical_catalog_identity": "NOT_ESTABLISHED",
+      "thematic_figures_in_chajes": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "citation_is_identification": false
+    },
+    {
+      "id": "ILAN-06",
+      "image_in_cosmos": "assets/ilan-06-original.jpg",
+      "provided_attachment_filename": "TODOS LOS ARBOLES 1_Page_44_Image_0001(1).jpg",
+      "page_number_embedded_in_filename": 44,
+      "filename_scope": "Nombre original del archivo aportado por el usuario; el número Page_ no acredita foliación del manuscrito",
+      "match_type": "byte_exact",
+      "sha256": "b589d63c47787799d89cffd3e55bae6844fd188359d4b35cc390a6270cd038b1",
+      "width_px": 957,
+      "height_px": 1306,
+      "bytes": 253016,
+      "historical_catalog_identity": "NOT_ESTABLISHED",
+      "thematic_figures_in_chajes": [
+        1
+      ],
+      "citation_is_identification": false
+    },
+    {
+      "id": "ILAN-07",
+      "image_in_cosmos": "assets/ilan-07-original.jpg",
+      "provided_attachment_filename": "TODOS LOS ARBOLES 1_Page_46_Image_0001(20261018-055010).jpg",
+      "page_number_embedded_in_filename": 46,
+      "filename_scope": "Nombre original del archivo aportado por el usuario; el número Page_ no acredita foliación del manuscrito",
+      "match_type": "byte_exact",
+      "sha256": "989ef97bdb2ab0a1eae15d03951d20a8569ca312612d39defdb6a6561e6c9249",
+      "width_px": 1424,
+      "height_px": 1765,
+      "bytes": 556726,
+      "historical_catalog_identity": "NOT_ESTABLISHED",
+      "thematic_figures_in_chajes": [
+        4
+      ],
+      "citation_is_identification": false
+    }
+  ]
+}

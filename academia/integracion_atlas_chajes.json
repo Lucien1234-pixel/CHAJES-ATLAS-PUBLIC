@@ -1,0 +1,59 @@
+{
+  "integration": "Atlas Chajes real, únicamente por enlaces directos a registros del sitio existente",
+  "atlas": {
+    "base_url": "https://besa-atlas-chajes.parcifal.chatgpt.site/",
+    "source_repository": "https://github.com/Lucien1234-pixel/besa-atlas-private",
+    "source_version": "Atlas BESA 1.3 · corpus basado en J. H. Chajes, The Kabbalistic Tree (2022)",
+    "records": {
+      "ILAN-01": [
+        {
+          "id": "ART-0009",
+          "label": "Gran Pergamino: copia de James Hepburn",
+          "relation": "Contexto de género; manuscrito distinto. No identifica este facsímil."
+        }
+      ],
+      "ILAN-02": [
+        {
+          "id": "ART-0002",
+          "label": "Ilan ha-hokhmah · BnF MS hébr. 763, fol. 34b",
+          "relation": "Paralelo de cosmología diagramática; manuscrito distinto."
+        }
+      ],
+      "ILAN-03": [
+        {
+          "id": "MOD-0013",
+          "label": "V · Grandes Círculos de Vital",
+          "relation": "Coincidencia temática en el vocabulario de círculos; no identifica el manuscrito."
+        }
+      ],
+      "ILAN-04": [
+        {
+          "id": "ART-0030",
+          "label": "Sefer ha-drushim: diagrama sinóptico · MS 572, fol. 54a",
+          "relation": "La signatura MS 572, fol. 54a coincide con la fig. 3 del artículo JQR de 2020 asociado a este facsímil. El registro del Atlas no demuestra que este facsímil sea ese manuscrito."
+        }
+      ],
+      "ILAN-05": [
+        {
+          "id": "SCH-0004",
+          "label": "Composición rotatoria del Pergamino Magnífico",
+          "relation": "Contexto de composición centrada en Tiferet y Atarah; manuscrito distinto de las figuras de Lonzano."
+        }
+      ],
+      "ILAN-06": [
+        {
+          "id": "ART-0018",
+          "label": "Sha’arei orah: menorah y árboles sefiróticos · BnF MS hébr. 819",
+          "relation": "Contraste temático sobre árboles sefiróticos; no es el mismo objeto."
+        }
+      ],
+      "ILAN-07": []
+    }
+  },
+  "source_distinction": "COSMOS ya referenciaba el artículo JQR (2020). Los registros Atlas enlazados pertenecen a la base BESA Atlas 1.3, sustentada en The Kabbalistic Tree (2022). Son corpus diferentes.",
+  "identity_status": "0/7 historic identities confirmed; direct record links express contextual or bibliographic cross-reference only.",
+  "rights": "No Atlas images, private corpus files, or Atlas descriptions copied into COSMOS. Only record IDs, short factual labels, relation caveats, and URLs are included. Verify Atlas/site and source-image rights before publication.",
+  "cosmos_source_zip_sha256": "EDBB627B80DA5D11985B52F0A2B9FE61BD9499A2B73B836504A109A1BD347E5B",
+  "atlas_source_repository": "https://github.com/Lucien1234-pixel/besa-atlas-private",
+  "atlas_readme": "Atlas BESA 1.3 README states its corpus is partial (154 records) and based on J. H. Chajes, The Kabbalistic Tree (2022)."
+}

@@ -1,0 +1,216 @@
+{
+  "version": "1.1-local-research-beta",
+  "study": "Chajes, Imaginative Thinking with a Lurianic Diagram, JQR 110.1 (2020), 30–63",
+  "academic_primary_source": "BESA, Pensar imaginativamente con un diagrama luriánico, edición corregida Fase 2, 21 p., figuras pp. 20 (ed. propia)",
+  "external_source": "https://doi.org/10.1353/jqr.2020.0001",
+  "conditions": "Figure refs identify Chajes figures, not the seven COSMOS images. No deep link to Chajes atlas verified.",
+  "figuras": [
+    {
+      "figura": 1,
+      "pagina_chajes": 32,
+      "title": "Árbol genealógico de Jesús",
+      "institucion": "Princeton University Art Museum",
+      "signatura_folio": "MS Y1937–266, fol. 122r",
+      "alcance": "Antecedente diagramático cristiano; no es un ilan cabalístico",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 2,
+      "pagina_chajes": 38,
+      "title": "Círculos y línea (igulim ve-yosher)",
+      "institucion": "Jewish Theological Seminary, Nueva York",
+      "signatura_folio": "MS 1985, fol. 1b",
+      "alcance": "Modelo luriánico citado por Chajes para estudiar la emanación",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 3,
+      "pagina_chajes": 39,
+      "title": "Diagrama luriánico en Sefer ha-drushim",
+      "institucion": "Biblioteca del rabino Y. M. Hillel, Jerusalén",
+      "signatura_folio": "MS 572, fol. 54a",
+      "alcance": "Objeto principal de estudio de Chajes; copia situada hacia 1600",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 4,
+      "pagina_chajes": 41,
+      "title": "Tabla cosmográfica de Andreas Cellarius",
+      "institucion": "Andreas Cellarius, Harmonia Macrocosmica",
+      "signatura_folio": "Lámina 10",
+      "alcance": "Paralelo visual NO equivalente semánticamente; no es manuscrito cabalístico",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 5,
+      "pagina_chajes": 44,
+      "title": "Tabla de correspondencias",
+      "institucion": "Otsrot ḥayim (edición Jerusalén, 2008)",
+      "signatura_folio": "p. 13",
+      "alcance": "Ejemplo textual y tabular, no identificación de pergamino COSMOS",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 6,
+      "pagina_chajes": 49,
+      "title": "Diagrama de tradición luriánica",
+      "institucion": "Bar-Ilan University, Ramat Gan",
+      "signatura_folio": "MS 1068, fol. 22a",
+      "alcance": "Referencia documental de Chajes",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 7,
+      "pagina_chajes": 50,
+      "title": "Testimonio de un esquema luriánico",
+      "institucion": "Biblioteca Nacional de Israel, Jerusalén",
+      "signatura_folio": "MS Heb. 8815°28, fols. 49b–50a",
+      "alcance": "Signatura conservada como en la edición BESA: normalización pendiente",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 8,
+      "pagina_chajes": 52,
+      "title": "Rediseño atribuido a Menachem de Lonzano",
+      "institucion": "Rare Book and Manuscript Library, Columbia University",
+      "signatura_folio": "MS X893 K11, fol. 28a",
+      "alcance": "Intervención manuscrita de Lonzano sobre el diagrama",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 9,
+      "pagina_chajes": 54,
+      "title": "Versión del círculo vacío de Lonzano",
+      "institucion": "Rare Book and Manuscript Library, Columbia University",
+      "signatura_folio": "MS X893 K11, fol. 150a",
+      "alcance": "Perímetro circular sin contenido interno",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 10,
+      "pagina_chajes": 55,
+      "title": "Nueva disposición diagramática de Lonzano",
+      "institucion": "Biblioteca Nacional de Israel, Jerusalén",
+      "signatura_folio": "MS Heb. 7991°28, fol. 10a",
+      "alcance": "Signatura conservada de Chajes; verificación catalográfica pendiente",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 11,
+      "pagina_chajes": 56,
+      "title": "Versión mínima de arco y canal",
+      "institucion": "Biblioteca Nacional de Israel, Jerusalén",
+      "signatura_folio": "MS Heb. 7991°28, fol. 86a",
+      "alcance": "La imagen de Lonzano utiliza media circunferencia y canal descendente",
+      "archivo_imagen_local": null
+    },
+    {
+      "figura": 12,
+      "pagina_chajes": 60,
+      "title": "Ilan de Ámsterdam del siglo XVIII",
+      "institucion": "Gross Family Trust",
+      "signatura_folio": "MS 028.012.024",
+      "alcance": "Ejemplo tardío del género, no identificación del ilan de COSMOS",
+      "archivo_imagen_local": null
+    }
+  ],
+  "asociaciones_tematicas": {
+    "ILAN-01": [
+      12
+    ],
+    "ILAN-02": [
+      2,
+      4
+    ],
+    "ILAN-03": [
+      2
+    ],
+    "ILAN-04": [
+      3
+    ],
+    "ILAN-05": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "ILAN-06": [
+      1
+    ],
+    "ILAN-07": [
+      4
+    ]
+  },
+  "facsimiles": [
+    {
+      "ilan_id": "ILAN-01",
+      "source_file": "assets/ilan-01-original.jpg",
+      "sha256": "daebfc8fbdcb36449c0ab45613de15ccf4120e4fab7b09e09fa900e6df667c2e",
+      "width": 338,
+      "height": 1024,
+      "bytes": 137161,
+      "manuscript_identity": "not-established",
+      "original_v09_identical": true
+    },
+    {
+      "ilan_id": "ILAN-02",
+      "source_file": "assets/ilan-02-original.jpg",
+      "sha256": "36af057c0f660e61ec769b786b1194fc2ca2405ecd02cb50c91a6700c864e7ea",
+      "width": 1143,
+      "height": 928,
+      "bytes": 302931,
+      "manuscript_identity": "not-established",
+      "original_v09_identical": true
+    },
+    {
+      "ilan_id": "ILAN-03",
+      "source_file": "assets/ilan-03-original.jpg",
+      "sha256": "bb86ca5aaa33a97dc2c994a8b1119b7520613231a01cdca40cc76c9cf8f51ad1",
+      "width": 1482,
+      "height": 1865,
+      "bytes": 598221,
+      "manuscript_identity": "not-established",
+      "original_v09_identical": true
+    },
+    {
+      "ilan_id": "ILAN-04",
+      "source_file": "assets/ilan-04-original.jpg",
+      "sha256": "48a8cd59058bf6caf01727bac5473a22b1de3d7e84179be0a48408897b9fe9a0",
+      "width": 1370,
+      "height": 1760,
+      "bytes": 444133,
+      "manuscript_identity": "not-established",
+      "original_v09_identical": true
+    },
+    {
+      "ilan_id": "ILAN-05",
+      "source_file": "assets/ilan-05-original.jpg",
+      "sha256": "07998c31d57ec69eb764531e4a19d398e124b6c3b6a92bc8e8ab10da904819ab",
+      "width": 1370,
+      "height": 1378,
+      "bytes": 370967,
+      "manuscript_identity": "not-established",
+      "original_v09_identical": true
+    },
+    {
+      "ilan_id": "ILAN-06",
+      "source_file": "assets/ilan-06-original.jpg",
+      "sha256": "b589d63c47787799d89cffd3e55bae6844fd188359d4b35cc390a6270cd038b1",
+      "width": 957,
+      "height": 1306,
+      "bytes": 253016,
+      "manuscript_identity": "not-established",
+      "original_v09_identical": true
+    },
+    {
+      "ilan_id": "ILAN-07",
+      "source_file": "assets/ilan-07-original.jpg",
+      "sha256": "989ef97bdb2ab0a1eae15d03951d20a8569ca312612d39defdb6a6561e6c9249",
+      "width": 1424,
+      "height": 1765,
+      "bytes": 556726,
+      "manuscript_identity": "not-established",
+      "original_v09_identical": true
+    }
+  ]
+}
