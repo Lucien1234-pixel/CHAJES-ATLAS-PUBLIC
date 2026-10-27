@@ -1,0 +1,29 @@
+{
+  "method": "Chromium desktop/mobile, page.set_content with original app/CSS JS and original thumbnails downscaled, WebGL disabled; not GPU certification",
+  "results": {
+    "desktop": {
+      "table": true,
+      "7 objects": true,
+      "12 comparisons": true,
+      "note_create": true,
+      "change_review_status": true,
+      "delete_note": true,
+      "filter": true,
+      "csv_json_export": true,
+      "prior_tabs": true,
+      "js_errors": 0
+    },
+    "mobile": {
+      "table": true,
+      "7 objects": true,
+      "12 comparisons": true,
+      "note_create": true,
+      "change_review_status": true,
+      "delete_note": true,
+      "filter": true,
+      "csv_json_export": true,
+      "prior_tabs": true,
+      "js_errors": 0
+    }
+  }
+}

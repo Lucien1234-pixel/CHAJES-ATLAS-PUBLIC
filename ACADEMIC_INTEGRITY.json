@@ -1,0 +1,49 @@
+{
+  "version": "1.0-beta-integrada",
+  "source_zip": "ILANOT_COSMOS_V09_BESA.zip",
+  "status": "preview local no publicada",
+  "originals": [
+    {
+      "id": "ILAN-01",
+      "name": "ilan-01-original.jpg",
+      "bytes": 137161,
+      "sha256": "daebfc8fbdcb36449c0ab45613de15ccf4120e4fab7b09e09fa900e6df667c2e"
+    },
+    {
+      "id": "ILAN-02",
+      "name": "ilan-02-original.jpg",
+      "bytes": 302931,
+      "sha256": "36af057c0f660e61ec769b786b1194fc2ca2405ecd02cb50c91a6700c864e7ea"
+    },
+    {
+      "id": "ILAN-03",
+      "name": "ilan-03-original.jpg",
+      "bytes": 598221,
+      "sha256": "bb86ca5aaa33a97dc2c994a8b1119b7520613231a01cdca40cc76c9cf8f51ad1"
+    },
+    {
+      "id": "ILAN-04",
+      "name": "ilan-04-original.jpg",
+      "bytes": 444133,
+      "sha256": "48a8cd59058bf6caf01727bac5473a22b1de3d7e84179be0a48408897b9fe9a0"
+    },
+    {
+      "id": "ILAN-05",
+      "name": "ilan-05-original.jpg",
+      "bytes": 370967,
+      "sha256": "07998c31d57ec69eb764531e4a19d398e124b6c3b6a92bc8e8ab10da904819ab"
+    },
+    {
+      "id": "ILAN-06",
+      "name": "ilan-06-original.jpg",
+      "bytes": 253016,
+      "sha256": "b589d63c47787799d89cffd3e55bae6844fd188359d4b35cc390a6270cd038b1"
+    },
+    {
+      "id": "ILAN-07",
+      "name": "ilan-07-original.jpg",
+      "bytes": 556726,
+      "sha256": "989ef97bdb2ab0a1eae15d03951d20a8569ca312612d39defdb6a6561e6c9249"
+    }
+  ]
+}

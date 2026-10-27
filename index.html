@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#03080c"><meta name="color-scheme" content="dark">
+<meta name="description" content="ILANOT — siete diagramas históricos en una instalación cósmica tridimensional. Una experiencia experimental de Beit Ein Sof Academy.">
+<title>ILANOT COSMOS 1.9 · Mesa de investigación | BESA</title>
+<link rel="preload" as="image" href="assets/ilan-01.webp"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <canvas id="space" aria-label="Escena tridimensional con siete diagramas cabalísticos históricos"></canvas>
+  <div id="cssFallback" aria-hidden="true"><div id="fallbackGallery" class="fallback-gallery"></div><div class="fallback-aura"></div></div>
+  <div class="threshold-aura" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="helix-aura" aria-hidden="true"><div class="helix-ellipse h1"></div><div class="helix-ellipse h2"></div><div class="helix-ellipse h3"></div><div class="helix-core">✶</div></div><div class="ambience-glow" aria-hidden="true"></div><div class="horizon-line" aria-hidden="true"></div>
+  <div class="reticle" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="reticle-dot"></span></div>
+  <div class="grain" aria-hidden="true"></div><div class="vignette" aria-hidden="true"></div>
+  <header class="masthead">
+    <a class="identity" href="#" aria-label="ILANOT · Inicio"><span class="identity-mark">✶</span><span class="identity-text"><strong>BESA</strong><small>BEIT EIN SOF ACADEMY</small></span></a>
+    <div class="masthead-center"><span class="line"></span> EL ARCHIVO VIVO · SIETE GEOMETRÍAS <span class="line"></span></div>
+    <div class="masthead-controls"><button id="compareToggle" class="quiet-btn compare-toggle" aria-label="Abrir la cámara díptica" aria-pressed="false">◈ DÍPTICO</button><button id="sequenceToggle" class="quiet-btn sequence-toggle" aria-label="Abrir secuencia cinematográfica" aria-pressed="false">◉ SECUENCIA</button><button id="overviewToggle" class="quiet-btn mode-switch" aria-label="Ver la constelación de siete manuscritos" aria-pressed="false">✦ CONSTELACIÓN</button><button id="thresholdToggle" class="quiet-btn threshold-toggle" aria-label="Entrar al Umbral tridimensional" aria-pressed="false">✺ UMBRAL</button><button id="vortexToggle" class="quiet-btn vortex-toggle" aria-label="Entrar al vórtice de los siete" aria-pressed="false">◎ VÓRTICE</button><button id="quality" class="quiet-btn" title="Alternar calidad visual" aria-label="Calidad visual: alta">CALIDAD <span id="qualityName">ALTA</span></button><button id="reduce" class="quiet-btn glyph" title="Reducir efectos de movimiento" aria-label="Reducir movimiento">◌</button><button id="fullscreen" class="quiet-btn glyph" title="Pantalla completa" aria-label="Pantalla completa">⛶</button></div>
+  </header>
+  <main class="experience">
+    <section class="editorial" aria-live="polite">
+      <div class="eyebrow"><span class="eyebrow-line"></span> EL ARCHIVO DEL INFINITO <span class="eyebrow-dot">✦</span> EDICIÓN ACADÉMICA · BETA</div>
+      <h1><span>ILANOT</span><em>El umbral<br>de lo invisible.</em></h1>
+      <p class="lead">Siete mapas del infinito.<br>Un observatorio entre el texto y el cosmos.</p>
+      <div class="piece-info"><span class="piece-index" id="pieceIndex">01 / 07</span><span class="piece-rule"></span><div class="piece-words"><span class="micro">OBJETO EN SUSPENSIÓN</span><h2 id="pieceTitle">El gran pergamino</h2><p id="pieceSubtitle">Manuscrito vertical · facsímil original</p></div></div>
+      <div class="main-actions"><button class="primary-action" id="inspect">LEER EL ORIGINAL <span>↗</span></button><button class="secondary-action" id="cinemaToggle" aria-label="Activar modo cine">✧ &nbsp; INICIAR TRAVESÍA</button><button class="tertiary-action" id="overviewMain" aria-label="Mostrar los siete ilanot juntos">◈ &nbsp; VER LOS SIETE</button><button class="tertiary-action" id="vortexMain" aria-label="Mostrar los siete en un vórtice tridimensional">◎ &nbsp; CRUZAR EL VÓRTICE</button><button class="compare-action" id="compareMain" aria-label="Entrar en el díptico de dos manuscritos"><span>◈</span><span>ENTRAR EN EL DÍPTICO</span><span>↗</span></button><button class="sequence-action" id="sequenceMain" aria-label="Iniciar proyección de los siete ilanot"><span class="sequence-action-mark">◉</span><span>ENTRAR EN SECUENCIA VII</span><span>↗</span></button><button class="threshold-action" id="thresholdMain" aria-label="Atravesar el umbral espacial de los siete manuscritos"><span>✺</span> ATRAVESAR EL UMBRAL <span>↗</span></button></div>
+    </section>
+    <aside class="side-index" aria-label="Navegación entre manuscritos"><span class="aside-label">ÍNDICE DE ÓRBITA</span><div id="orbitIndex" class="orbit-index"></div><span class="side-hint">RECORRÉ LAS SIETE CÁMARAS ↓</span></aside>
+    <section id="constellationOverlay" class="constellation-overlay" aria-hidden="true" inert><div class="constellation-head"><span class="constellation-kicker">BESA / ATRIO VII</span><h2>Una geometría<br><em>para el infinito.</em></h2><p>Siete diagramas, siete mundos. Elegí un pergamino para atravesar su órbita.</p></div><div class="constellation-choices" id="constellationChoices"></div><div class="constellation-foot"><span>✧</span> ARRASTRÁ EL CURSOR PARA GIRAR EL OBSERVATORIO <span>✧</span></div></section><section id="vortexOverlay" class="vortex-overlay" aria-hidden="true" inert><div class="vortex-title"><span class="vortex-kicker">BESA / EXPEDICIÓN VI / HELIX</span><h2>El vórtice<br><em>de los siete.</em></h2><p>Un eje. Siete manuscritos. Girá la arquitectura y elegí un mundo para atravesarlo.</p></div><div class="vortex-orientation" aria-label="Controles del vórtice"><button id="spinLeft" aria-label="Girar vórtice a la izquierda">↶</button><span>GIRAR LA CÁMARA<br><strong>ARRASTRÁ · O USÁ LAS FLECHAS</strong></span><button id="spinRight" aria-label="Girar vórtice a la derecha">↷</button></div><div id="vortexChoices" class="vortex-choices" role="group" aria-label="Elegir uno de los siete manuscritos"></div><button id="leaveVortex" class="vortex-leave">← SALIR DEL VÓRTICE</button><div class="vortex-coordinate">VII / VII — UNA CARTOGRAFÍA DE LO INVISIBLE</div></section><section id="thresholdOverlay" class="threshold-overlay" aria-hidden="true" inert>
+ <div class="threshold-head"><div class="threshold-kicker"><i></i> BESA / UMBRAL VII / TRAVESÍA EN PROFUNDIDAD</div><h2>El espacio<br><em>se vuelve texto.</em></h2><p>Siete manuscritos, siete puertas suspendidas. Avanzá por la arquitectura luminosa hacia la siguiente estación.</p></div>
+ <div class="threshold-altitude"><span>COORDENADA DE TRAVESÍA</span><strong id="thresholdMetric">01 <small>/ 07</small></strong><div class="threshold-line"><i id="thresholdTrack"></i></div><small>MANUSCRITO ENFOCADO · <span id="thresholdName">EL GRAN PERGAMINO</span></small></div>
+ <div class="threshold-map"><span class="threshold-map-heading">SIETE PUERTAS / NAVEGACIÓN</span><div id="thresholdStations" class="threshold-stations" role="group" aria-label="Seleccionar estación del Umbral"></div></div>
+ <div class="threshold-controls"><button id="thresholdAuto" aria-label="Pausar viaje">Ⅱ PAUSAR VIAJE</button><button id="thresholdPrev" aria-label="Anterior estación">← ANTERIOR</button><button id="thresholdInspect" class="threshold-focus">↗ EXAMINAR ORIGINAL</button><button id="thresholdNext" aria-label="Siguiente estación">SIGUIENTE →</button></div>
+ <button id="thresholdExit" class="threshold-exit">✕ &nbsp; VOLVER AL OBSERVATORIO</button>
+ <div class="threshold-watermark" aria-hidden="true">VII</div><div class="threshold-scrollback">DESLIZÁ PARA VIAJAR · FLECHAS PARA AVANZAR</div>
+</section><section id="sequenceOverlay" class="sequence-overlay" aria-hidden="true" inert>
+  <div class="sequence-backing" aria-hidden="true"><div class="sequence-iris"></div><div class="sequence-iris outer"></div><div class="sequence-ray"></div><div class="sequence-ray ray-two"></div></div>
+  <header class="sequence-header"><span class="sequence-sign"><span class="sequence-live"></span> BESA / ILANOT / SECUENCIA VII <small>UNA PELÍCULA ESPACIAL · 0.9</small></span><button id="sequenceExit" aria-label="Salir de la secuencia">SALIR DE LA PROYECCIÓN <span>✕</span></button></header>
+  <div class="sequence-editorial"><div class="sequence-episode">CAPÍTULO <strong id="sequenceNumber">01</strong><span> / 07</span></div><div class="sequence-rule"></div><h2 id="sequenceTitle">El gran pergamino</h2><p id="sequenceDetail">Una cartografía de lo invisible, suspendida en la profundidad.</p><span class="sequence-hint">✧ &nbsp; Siete manuscritos históricos · Facsímiles sin alterar</span></div>
+  <div class="sequence-counter"><span>TIEMPO DE LA PROYECCIÓN</span><strong id="sequenceClock">00:00 <small>/ 00:56</small></strong></div>
+  <div class="sequence-footer"><div class="sequence-footer-head"><span>VII ESTACIONES · SIETE PLANOS DE PROFUNDIDAD</span><span id="sequencePosition">01 — 07</span></div>
+  <div id="sequenceChapters" class="sequence-chapters" role="group" aria-label="Ir a un capítulo de la película"></div>
+  <label class="sequence-scrub-label" for="sequenceScrub">DESPLAZAMIENTO CINEMATOGRÁFICO</label><input id="sequenceScrub" type="range" min="0" max="700" step="1" value="0" aria-label="Línea de tiempo de la secuencia cinematográfica"/>
+  <div class="sequence-transport"><button id="sequenceBack" aria-label="Capítulo anterior">← CAPÍTULO</button><button id="sequencePlay" class="sequence-play" aria-label="Pausar proyección">Ⅱ PAUSAR PROYECCIÓN</button><button id="sequenceNext" aria-label="Capítulo siguiente">SIGUIENTE →</button><button id="sequenceRead" class="sequence-read" aria-label="Leer manuscrito original">↗ LEER ORIGINAL</button></div>
+  </div>
+ </section><div class="side-coordinate" aria-hidden="true">BESA <span>·</span> SEVEN CHAMBERS <span>·</span> MMXXVI</div>
+    <div class="interaction-hint" aria-hidden="true"><span class="hint-circle">✺</span> MUEVE EL CURSOR PARA ALTERAR LA PERSPECTIVA</div>
+  </main>
+  <nav class="bottom-dock" aria-label="Navegación de la galería"><div class="dock-begin"><span class="pulse-dot"></span><span id="statusText">RECORRIDO EN VIVO</span><button id="tourToggle" class="dock-play" aria-label="Pausar el desfile automático"><span id="tourIcon">Ⅱ</span><span id="tourLabel">PAUSAR</span></button></div><div class="dock-gallery"><span class="orbit-label">01—07</span><button id="prev" class="round-nav" aria-label="Manuscrito anterior">←</button><div class="pagination" id="pagination"></div><button id="next" class="round-nav" aria-label="Manuscrito siguiente">→</button></div><div class="dock-end"><button class="archive-open" id="archiveOpen" aria-label="Abrir archivo de los siete manuscritos">☷ &nbsp; VER EL ARCHIVO</button><span class="archive-small">SIETE MANUSCRITOS</span><span class="divider"></span><span id="positionText">01 — 07</span></div></nav>
+  <div class="frame-count" aria-hidden="true"><span id="frameLarge">01</span><small>VII<br>ESTACIONES</small></div><div class="sequence-caption">I — VII <span>·</span> GEOMETRÍAS EN TRÁNSITO</div><div class="corner-label">ILANOT / EL OBSERVATORIO IMPOSIBLE — 0.9</div>
+  <div class="cinema-hud" id="cinemaHud" aria-hidden="true">
+    <div class="cinema-topline"><span>✳ &nbsp; ILANOT / EDICIÓN ACADÉMICA · BETA</span><button id="cinemaClose" aria-label="Salir del modo cine">SALIR DE LA NAVE &nbsp; ✕</button></div>
+    <div class="cinema-bottomline"><div><small>ESTACIÓN <span id="cinemaIndex">01</span> / 07</small><h2 id="cinemaTitle">El gran pergamino</h2><span class="cinema-note">GIRÁ EL CURSOR · DESLIZÁ PARA VIAJAR</span></div><button id="cinemaInspect">ABRIR FACSIMIL &nbsp; ↗</button></div>
+  </div>
+  <div class="archive-drawer" id="archiveDrawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Archivo de manuscritos">
+    <div class="archive-panel"><div class="archive-head"><div><span class="micro">BESA / COLECCIÓN ORIGINAL</span><h2>Los siete<br><em>ilanot.</em></h2><p>Elegí una estación para viajar hasta ella.</p></div><button id="archiveClose" aria-label="Cerrar archivo">✕</button></div><div id="archiveGrid" class="archive-grid"></div><div class="archive-footer">SIETE FACSÍMILES SIN ALTERACIONES <span>✦</span> EXPEDICIÓN 0.9</div></div>
+  </div>
+
+  <section id="compareOverlay" class="compare-overlay" aria-hidden="true" inert role="dialog" aria-modal="true" aria-label="Díptico de manuscritos">
+   <div class="compare-vault" aria-hidden="true"><div class="vault-halo"></div><div class="vault-axis"></div><div class="vault-rays"></div><div class="vault-beacon">✶</div></div>
+   <header class="compare-header"><div><div class="compare-overline">BEIT EIN SOF ACADEMY / LA CÁMARA DOBLE</div><h2>DÍPTICO <em>VII</em></h2><p>Dos geometrías originales, un espacio en común.</p></div><button id="compareExit" aria-label="Cerrar díptico">CERRAR CÁMARA <span>✕</span></button></header>
+   <div class="compare-stage" id="compareStage">
+    <article class="compare-wing left" data-side="a"><div class="compare-number">01 <span>/ ORIGEN A</span></div><div class="compare-frame" id="compareFrameA"><img id="compareImageA" alt="Facsímil original A" draggable="false"><div class="compare-glaze" aria-hidden="true"></div></div><div class="compare-panel-foot"><strong id="compareTitleA">El gran pergamino</strong><button id="compareReadA" aria-label="Ampliar facsímil A">EXAMINAR ORIGINAL ↗</button></div></article>
+    <div class="compare-spine" aria-hidden="true"><span>א</span><i></i><b>VII</b><i></i><span>∞</span></div>
+    <article class="compare-wing right" data-side="b"><div class="compare-number">02 <span>/ ORIGEN B</span></div><div class="compare-frame" id="compareFrameB"><img id="compareImageB" alt="Facsímil original B" draggable="false"><div class="compare-glaze" aria-hidden="true"></div></div><div class="compare-panel-foot"><strong id="compareTitleB">El mapa cosmológico</strong><button id="compareReadB" aria-label="Ampliar facsímil B">EXAMINAR ORIGINAL ↗</button></div></article>
+   </div>
+   <div class="compare-console"><div class="compare-rails"><div class="compare-rail"><span class="rail-label">ELEGIR ORIGEN A</span><div id="compareRailA" class="rail-buttons" role="group" aria-label="Elegir manuscrito izquierdo"></div></div><div class="compare-rail"><span class="rail-label">ELEGIR ORIGEN B</span><div id="compareRailB" class="rail-buttons" role="group" aria-label="Elegir manuscrito derecho"></div></div></div>
+    <div class="compare-tools"><button id="compareSwap" class="compare-swap" aria-label="Intercambiar los manuscritos">⇄ <span>INTERCAMBIAR</span></button><label class="compare-zoom"><span>ACERCAMIENTO <strong id="compareZoomLabel">100%</strong></span><input type="range" id="compareZoom" min="100" max="300" step="5" value="100" aria-label="Acercamiento a los dos facsímiles"></label><button id="compareReset" aria-label="Restablecer acercamiento y posición">↺ CENTRAR</button><span class="compare-help">RUEDA PARA AMPLIAR · ARRASTRÁ PARA EXPLORAR</span></div>
+   </div>
+   <div class="compare-watermark" aria-hidden="true">EL OBSERVATORIO IMPOSIBLE / 0.9</div>
+  </section>
+  <div class="flight-flash" id="flightFlash" aria-hidden="true"></div><div class="jump-trace" id="jumpTrace" aria-hidden="true"><span></span><span></span><span></span></div>
+  <div id="viewer" class="viewer" role="dialog" aria-modal="true" aria-label="Visor ampliado de manuscritos" aria-hidden="true">
+    <div class="viewer-top"><div><span class="viewer-overline">ORIGINAL / FACSIMILE</span><h3 id="viewerTitle">El gran pergamino</h3></div><div class="viewer-actions"><button id="zoomOut" aria-label="Alejar imagen">−</button><span id="zoomValue">100%</span><button id="zoomIn" aria-label="Acercar imagen">+</button><button id="resetView" class="label-btn">CENTRAR</button><button id="closeViewer" class="close-btn" aria-label="Cerrar visor">✕</button></div></div>
+    <div class="viewer-stage" id="viewerStage"><img draggable="false" id="viewerImage" src="assets/ilan-01-original.jpg" alt="Manuscrito original en alta resolución"></div>
+    <div class="viewer-bottom"><span>FACSIMIL ORIGINAL · SIN ALTERACIONES</span><span>RUEDA PARA ZOOM · ARRASTRAR PARA MOVER · ESC PARA CERRAR</span></div>
+  </div>
+  <div class="loading-screen" id="loading"><div class="loader-symbol">✶</div><div class="loader-title">ILANOT</div><div class="loader-sub">ABRIENDO EL UMBRAL · SIETE ESTACIONES</div><div class="loader-bar"><i id="loadProgress"></i></div></div>
+</div>
+<script src="inline-textures.js"></script><script src="scene.js"></script><script src="app.js"></script>
+
+<!-- BESA v1.0: capa académica separada de los siete originales; no modifica la escena. -->
+<button id="besaStudyToggle" class="besa-study-launch" aria-label="Abrir estudio académico del manuscrito activo" aria-controls="besaStudyDialog" aria-haspopup="dialog">✧ <span>ESTUDIAR EL ILAN</span> <small>CHAJES / BESA</small></button>
+<a id="besaAtlasLaunch" class="besa-atlas-launch" href="https://besa-atlas-chajes.parcifal.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="Abrir el Atlas Chajes en una pestaña nueva">↗ <span>ENTRAR AL ATLAS CHAJES</span></a>
+<div id="besaStudyDialog" class="besa-study-backdrop" role="dialog" aria-modal="true" aria-labelledby="besaStudyHeading" aria-hidden="true" hidden>
+ <div class="besa-study-window">
+  <header class="besa-study-head"><div><span class="besa-study-overline">BEIT EIN SOF ACADEMY · DOCUMENTACIÓN</span><h2 id="besaStudyHeading">El archivo interpretado<span> · 01 / 07</span></h2></div><button type="button" class="besa-study-close" id="besaStudyClose" aria-label="Cerrar estudio">✕</button></header>
+  <nav class="besa-study-nav" aria-label="Elegir una de las siete fichas" id="besaStudyNav"></nav>
+  <div class="besa-study-body">
+   <div class="besa-study-art"><div class="besa-study-art-frame"><img id="besaStudyImage" draggable="false" alt="Facsímil del manuscrito seleccionado"></div><div class="besa-study-art-caption"><span id="besaStudyObjectId">ILAN-01</span><span>ORIGINAL SIN ALTERACIONES</span></div><button id="besaStudyInspect" class="besa-study-inspect" type="button">↗ EXAMINAR ORIGINAL</button></div>
+   <div class="besa-study-copy"><div class="besa-study-class"><span id="besaStudyTag">Historia del género</span><span class="besa-study-status">VÍNCULO TEMÁTICO</span></div>
+   <h3 id="besaStudyTitle">El gran pergamino</h3><p class="besa-study-subtitle" id="besaStudySubtitle"></p>
+   <section class="besa-study-block"><h4>Clave de lectura</h4><p id="besaStudySummary"></p></section>
+   <section class="besa-study-block"><h4>Una pregunta para mirar</h4><p id="besaStudyQuestion"></p></section>
+   <section class="besa-study-block"><h4>Fuentes y límites de la identificación</h4><p id="besaStudyContext"></p><div class="besa-study-source" id="besaStudySource"></div><p class="besa-study-ref" id="besaStudyFigure"></p></section>
+   <div class="besa-study-warning">La descripción es una <strong>vinculación temática</strong>. No identifica este facsímil con los manuscritos citados por Chajes. Falta cotejo de signatura, folio y procedencia.</div>
+   <div class="besa-study-exits"><a href="https://besa-atlas-chajes.parcifal.chatgpt.site/" target="_blank" rel="noopener noreferrer">↗ ATLAS CHAJES</a><a href="https://doi.org/10.1353/jqr.2020.0001" target="_blank" rel="noopener noreferrer">↗ ARTÍCULO ORIGINAL</a></div>
+   <div class="besa-study-epilogue">Atlas Chajes: enlace al inicio, no a una ficha verificada · Edición BESA: aparato selectivo de 34 notas · Vinculación Avivi individual pendiente de cotejo.</div>
+   </div>
+  </div>
+ </div>
+</div>
+<script src="academia/study.js"></script>
+<script src="academia/evidencia.js"></script>
+<script src="academia/cotejo_v12.js"></script>
+<script src="academia/registro_v19.js"></script>
+</body></html>

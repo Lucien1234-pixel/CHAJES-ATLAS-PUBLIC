@@ -1,0 +1,24 @@
+{
+  "integration_release": "1.0",
+  "base_application": "ILANOT COSMOS BESA 1.9",
+  "release_type": "private GPT Site deployment",
+  "entry": "ESTUDIAR EL ILAN → ATLAS CHAJES",
+  "features": [
+    "deep links to six verified Atlas entries",
+    "seven-item crosswalk with explicit no-record outcome for ILAN-07",
+    "local search",
+    "CSV and JSON downloads",
+    "source, privacy and rights disclosure",
+    "sign-in guidance",
+    "return-to-scene control"
+  ],
+  "identity_status": "0/7 confirmed",
+  "browser_visual_qa": "desktop verified; mobile viewport not applied by the browser",
+  "published": true,
+  "publishing": {
+    "access": "owner-private",
+    "target": "https://ilanot-cosmos-besa-atlas.parcifal.chatgpt.site",
+    "version": 2,
+    "atlas_site_modified": false
+  }
+}

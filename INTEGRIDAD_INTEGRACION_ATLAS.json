@@ -1,0 +1,77 @@
+{
+  "cosmos_input_zip_sha256": "EDBB627B80DA5D11985B52F0A2B9FE61BD9499A2B73B836504A109A1BD347E5B",
+  "input_zip_entries": 53,
+  "updated_files": [
+    "README.md",
+    "styles.css",
+    "ILANOT_COSMOS_1_9_ABRIR.html",
+    "academia/registro_v19.js",
+    "index.html",
+    "NOTAS_DE_ENTREGA_v1.0.md"
+  ],
+  "new_files": [
+    "academia/matriz_atlas_chajes.csv",
+    "academia/integracion_atlas_chajes.json"
+  ],
+  "original_facsimiles": {
+    "ilan-01-original.jpg": {
+      "sha256": "daebfc8fbdcb36449c0ab45613de15ccf4120e4fab7b09e09fa900e6df667c2e",
+      "matches_original": true
+    },
+    "ilan-02-original.jpg": {
+      "sha256": "36af057c0f660e61ec769b786b1194fc2ca2405ecd02cb50c91a6700c864e7ea",
+      "matches_original": true
+    },
+    "ilan-03-original.jpg": {
+      "sha256": "bb86ca5aaa33a97dc2c994a8b1119b7520613231a01cdca40cc76c9cf8f51ad1",
+      "matches_original": true
+    },
+    "ilan-04-original.jpg": {
+      "sha256": "48a8cd59058bf6caf01727bac5473a22b1de3d7e84179be0a48408897b9fe9a0",
+      "matches_original": true
+    },
+    "ilan-05-original.jpg": {
+      "sha256": "07998c31d57ec69eb764531e4a19d398e124b6c3b6a92bc8e8ab10da904819ab",
+      "matches_original": true
+    },
+    "ilan-06-original.jpg": {
+      "sha256": "b589d63c47787799d89cffd3e55bae6844fd188359d4b35cc390a6270cd038b1",
+      "matches_original": true
+    },
+    "ilan-07-original.jpg": {
+      "sha256": "989ef97bdb2ab0a1eae15d03951d20a8569ca312612d39defdb6a6561e6c9249",
+      "matches_original": true
+    }
+  },
+  "static_checks": {
+    "modular_js_syntax": "passed",
+    "standalone_embedded_js_syntax": "passed",
+    "standalone_embedded_script_matches_modular_source": "passed",
+    "six_verified_deep_link_records": "passed",
+    "seventh_has_no_forced_record": "passed",
+    "main_scene_atlas_button": "present in index.html and standalone HTML",
+    "in_page_atlas_index": "present",
+    "atlas_index_filter": "present",
+    "return_to_scene_control": "present",
+    "crosswalk_csv_export": "present",
+    "crosswalk_json_export": "present",
+    "provenance_disclosure": "present",
+    "atlas_access_guidance": "present"
+  },
+  "browser_qa": {
+    "desktop": "verificado en el Site publicado: escena cargada y panel Atlas abre con 7 elementos",
+    "deep_links": "la ruta directa ART-0009 abre el Atlas Chajes y conserva el identificador; el Atlas solicita iniciar sesión",
+    "mobile": "pendiente: el navegador no aplicó el tamaño de ventana móvil"
+  },
+  "publishing": "Publicado en GPT Site separado, acceso privado del propietario: https://ilanot-cosmos-besa-atlas.parcifal.chatgpt.site (versión 2). El Site Atlas Chajes original y su repositorio no fueron modificados.",
+  "integration_release": "1.0",
+  "change_v0_2": "Persistent, visible button on the 3D scene opens the Atlas homepage in a new tab; responsive placement for mobile.",
+  "change_v0_3": "Dedicated ATLAS CHAJES tab inside the study window displays the seven-object crosswalk, six verified Atlas records, and one explicit no-match.",
+  "change_v0_4": "Local filter over seven Atlas crosswalk cards by COSMOS object, digital page, record ID, manuscript signature and relation text.",
+  "change_v0_5": "Adds a visible return-to-scene control in Atlas crosswalk view, closing the study dialog through its existing close action.",
+  "change_v0_6": "Adds local CSV download for the seven-object Atlas crosswalk, including direct record links and explicit no-record status.",
+  "change_v0_7": "Adds structured local JSON export of crosswalk, direct URLs, corpus/source provenance and identity caveats.",
+  "change_v0_8": "Adds visible source, privacy, access and rights provenance disclosure; adds those notes to JSON export.",
+  "change_v0_9": "Adds a collapsible sign-in guidance block explaining how to return to COSMOS and reopen a deep link if Atlas redirects to its homepage.",
+  "change_v1_0": "Consolidated local release with explicit release notes, QA scope, source caveats and UI version label."
+}
