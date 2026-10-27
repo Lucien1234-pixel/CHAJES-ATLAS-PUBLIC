@@ -1,6 +1,6 @@
 # ILANOT COSMOS BESA 1.9 — Integración Atlas Chajes 1.0
 
-Versión local independiente, no publicada, derivada de la 1.2. **No hay versiones 1.3–1.8 entregadas por separado**: esta versión reúne los cambios solicitados al avanzar directamente a la 1.9.
+Copia de trabajo derivada de ILANOT COSMOS BESA 1.9 / integración Atlas Chajes 1.0. Está alojada en el repositorio público `CHAJES-ATLAS-PUBLIC` para continuar su edición; no se ha desplegado un GPT Site nuevo. El GPT Site existente continúa privado y separado. **No hay versiones 1.3–1.8 entregadas por separado**: esta versión reúne los cambios solicitados al avanzar directamente a la 1.9.
 
 
 
@@ -18,7 +18,7 @@ Los enlaces usan el formato de ruta profunda observado en el propio Atlas: `#exp
 - Repositorio fuente indicado por el usuario: https://github.com/Lucien1234-pixel/besa-atlas-private (privado; no modificado).
 - Corpus Atlas examinado: `public/data.json` del ZIP aportado por el usuario, Atlas BESA 1.3 (154 registros). El archivo completo no se incorpora al paquete de COSMOS.
 - COSMOS 1.9 de entrada: SHA-256 `EDBB627B80DA5D11985B52F0A2B9FE61BD9499A2B73B836504A109A1BD347E5B`, ZIP de 53 entradas.
-- Atlas: solo se conservan IDs de ficha, etiquetas breves de identificación, tipo de relación y enlaces. No se copian imágenes ni descripciones del Atlas. La licencia y permisos de reproducción de las imágenes de origen siguen sin determinar; esta versión no se publica.
+- Atlas: solo se conservan IDs de ficha, etiquetas breves de identificación, tipo de relación y enlaces. No se copian imágenes ni descripciones del Atlas. Los siete facsímiles COSMOS proporcionados están incluidos en este repositorio público por indicación del propietario; sus permisos de reproducción siguen sin determinar. Resolver los derechos antes de una difusión o despliegue público.
 - El sitio Atlas en línea puede cambiar independientemente de esta copia local. Las rutas son enlaces externos, no una copia offline del Atlas.
 
 ## Cambio 1.0 · entrega consolidada
@@ -63,9 +63,9 @@ Abrí `ILANOT_COSMOS_1_9_ABRIR.html` en Chrome o Edge; pulsá **ESTUDIAR EL ILAN
 - Los 7 títulos de COSMOS son editoriales. Ni los hashes ni las coincidencias temáticas prueban identidad histórica. **Identidades históricas certificadas: 0/7.**
 - La biblioteca de Chajes aporta **paralelos de estudio, no imágenes catalográficas cotejadas**. La edición BESA en español es una edición académica de estudio, no traducción oficial.
 - Las etiquetas de estado representan decisiones del usuario sobre **sus notas**, no autenticación por Chajes o por una institución.
-- Las imágenes originales pueden estar sujetas a derechos; esta entrega es local y no se ha publicado.
+- Los facsímiles están incluidos en un repositorio GitHub público; sus derechos de reproducción no están establecidos. El GPT Site permanece privado hasta resolverlos.
 - La funcionalidad WebGL2 no está certificada con GPU real en este entorno; el render alternativo puede funcionar.
-- El navegador de QA bloqueó la apertura de archivos locales; no pude completar una inspección interactiva de escritorio/móvil de esta copia. Se hicieron comprobaciones estáticas de scripts, rutas, manifiestos y hashes. La prueba visual final requiere abrir el HTML en Chrome o Edge localmente.
+- QA visual del GPT Site separado: escritorio verificado; móvil pendiente porque el navegador no aplicó el tamaño de ventana solicitado. El panel Atlas abre con siete elementos y el enlace ART-0009 conserva su ruta; el Atlas solicita iniciar sesión. La inspección interactiva de escritorio/móvil del archivo local no se realizó.
 
 ## Integridad
 `academia/registro_publico_v19.json` y `academia/registro_publico_v19.csv` contienen las referencias de Chajes 2020; `academia/matriz_atlas_chajes.csv` documenta los enlaces verificados al Atlas. `academia/integracion_atlas_chajes.json` registra la procedencia y los límites de la integración; `INTEGRIDAD_1_9.json` contiene los SHA-256 originales verificados. Los originales JPG permanecen byte a byte idénticos a la 1.2.
